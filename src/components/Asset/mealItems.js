@@ -1,0 +1,68 @@
+const mealItems = [
+  {
+    id: Symbol("id"),
+    img: "/image/1-2-food-free-png-image.png",
+    name: "French Fries",
+    description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
+    price: 2700,
+    tag: "Lunch",
+  },
+  {
+    id: Symbol("id"),
+    img: "/image/1-2-food-free-png-image.png",
+    name: "Fries",
+    description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
+    price: 2700,
+    tag: "Lunch",
+  },
+  {
+    id: Symbol("id"),
+    img: "/image/1-2-food-free-png-image.png",
+    name: "Burger",
+    description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
+    price: 2700,
+    tag: "Lunch",
+  },
+  {
+    id: Symbol("id"),
+    img: "/image/1-2-food-free-png-image.png",
+    name: "Egusi",
+    description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
+    price: 2700,
+    tag: "Lunch",
+  },
+  {
+    id: Symbol("id"),
+    img: "/image/1-2-food-free-png-image.png",
+    name: "Egusi",
+    description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
+    price: 2700,
+    tag: "Lunch",
+  },
+  {
+    id: Symbol("id"),
+    img: "/image/1-2-food-free-png-image.png",
+    name: "Egusi",
+    description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
+    price: 2700,
+    tag: "Lunch",
+  },
+  {
+    id: Symbol("id"),
+    img: "/image/1-2-food-free-png-image.png",
+    name: "Egusi",
+    description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
+    price: 2700,
+    tag: "Lunch",
+  },
+  {
+    id: Symbol("id"),
+    img: "/image/1-2-food-free-png-image.png",
+    name: "Egusi",
+    description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
+    price: 2700,
+    tag: "Lunch",
+  },
+];
+
+export default mealItems;

@@ -1,0 +1,14 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+    flex-grow: 1;
+    margin: 18vh auto 3vh;
+    justify-content: center;
+ 
+    
+    
+    
+}
+
