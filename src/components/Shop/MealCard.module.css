@@ -1,3 +1,7 @@
+/* 
+ #C1D5A4; 
+ #224B0C */
+
 .card{
 max-width: 150px;
 display: flex;
@@ -6,31 +10,41 @@ flex-direction: column;
 max-height: 500px;
 flex-grow: 1;
 margin: 3px;
-border: 1px inset burlywood;
-box-shadow: 0 2px 5px rgba(109, 36, 36, 0.26);
+box-shadow: 0 2px 5px #000000;
 flex: 0 1 calc(25% - 10px);
 border-radius: 5%;
+padding-bottom: 5px;
 
 }
 .image{
-  width: 100%;
+  max-width: 100%;
   height: 150px;
 
 }
 .image img{
-    width: 100%;
+    max-width: 100%;
     height: 150px;
     padding: 0;
     margin: 0;
+    border-radius: 5%;
 }
 .description{
- color: burlywood;
+ color: #224B0C ;
 }
 
-.description h1{
+.description h1 {
     font-size: 1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 0;
+    font-family:'Times New Roman', Times, serif;
+    padding:0;
+
+    
+}
+.description p {
+    font-size: 1rem;
+   
+    font-family:'Times New Roman', Times, serif;
+    padding:0;
+
     
 }
 

@@ -8,8 +8,9 @@ const Meals = () => {
     <div className={classes.parent}>
       {mealItems.map((item) => (
         <MealsCard
+          key={item.id}
           id={item.id}
-          title={item.title}
+          title={item.name}
           image={item.img}
           price={item.price}
         />

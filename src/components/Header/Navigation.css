@@ -1,3 +1,5 @@
+ /* #C1D5A4; 
+ #224B0C */ 
 .nav {
     position: fixed;
     overflow: hidden;
@@ -11,9 +13,9 @@
     align-items: center;
     background: rgb(250, 250, 250);
     margin: 0;
-    border-bottom: 2px solid #924222;
+    border-bottom: 2px solid  #224B0C;
     box-shadow: 0 2px 4px rgba(109, 36, 36, 0.26);
-    padding: 1.5rem 0;
+    /* padding: 1.5rem 0; */
     
   }
 
@@ -26,14 +28,11 @@
     transition: all 0.5s ease;
   }
 
- 
-  
-
 .nav .logo{
     font-size: 3rem;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #924222;
+    color:  #224B0C;
     padding-left: 1rem;
     transition: all 0.5s ease;
     padding-bottom: 0;
@@ -41,30 +40,36 @@
     
 }
 .shrink__logo{
-  font-size: 2rem;
+    font-size: 2rem;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #924222;
-    padding-left: 1rem;
+    color:  #224B0C;
+    padding: 1.4rem 0 0 1rem ;
     transition: all 0.5s ease;
     
 }
 
-.tag{
+
+.tag {
   font-size: 0.7rem;
   padding: 0;
   margin-bottom: 1rem;
   margin-top: 0;
-  color: #C1D5A4;
+  color: #224B0C;
 }
-
+.shrink__tag{
+  font-size: 0.7rem;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color:#C1D5A4;
+}
 .nav__menu {
     list-style: none;
     margin-top: 2rem;
     padding: 2rem;
     display: flex;
   }
-
   .nav__menu li {
     margin: 0;
     margin-left: 1rem;
@@ -72,7 +77,7 @@
   
   .nav__menu a {
     text-decoration: none;
-    color: #924222;
+    color:  #224B0C;
   }
   
   .nav__menu a:hover,
@@ -81,19 +86,19 @@
   }
   
   .burger{
-    display: none;
+    display: block;
     cursor: pointer;
     padding-right: 1rem;
   }
   .burger div{
     width:25px;
     height: 3px;
-    background-color: #924222;
+    background-color: #224B0C;
     margin: 5px;
     transition: all 0.3s ease;
   }
 
-  @media screen and (max-width : 768px){
+  @media screen and (max-width : 1444px){
    
     .nav__menu{
       position: fixed;
@@ -112,7 +117,7 @@
     }
 
     .nav__menu a {
-       color: #924222;
+       color:  #224B0C;
     }
     
     .nav__menu li{

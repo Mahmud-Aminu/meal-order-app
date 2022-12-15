@@ -13,7 +13,7 @@ const MealsCard = ({ image, title, price }) => {
         <div className={classes.description}>
           <h1>{title}</h1>
           <p>${price}</p>
-          <Button>Add to cart</Button>
+          <Button className={classes.btn}>Add to cart</Button>
         </div>
       </div>
     </div>
