@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../UI/Button";
 import classes from "./MealCard.module.css";
+import { MealItemForm } from "./MealItemForm";
 
 const MealsCard = ({ image, title, price }) => {
   return (
@@ -13,7 +13,7 @@ const MealsCard = ({ image, title, price }) => {
         <div className={classes.description}>
           <h1>{title}</h1>
           <p>${price}</p>
-          <Button className={classes.btn}>Add to cart</Button>
+          <MealItemForm />
         </div>
       </div>
     </div>

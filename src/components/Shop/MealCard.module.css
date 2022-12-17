@@ -9,10 +9,9 @@ margin:1rem;
 flex-direction: column;
 max-height: 500px;
 flex-grow: 1;
-margin: 3px;
 box-shadow: 0 2px 5px #000000;
 flex: 0 1 calc(25% - 10px);
-border-radius: 5%;
+border-top: 5%;
 padding-bottom: 5px;
 
 }
@@ -26,7 +25,8 @@ padding-bottom: 5px;
     height: 150px;
     padding: 0;
     margin: 0;
-    border-radius: 5%;
+    /* border-radius: 5%; */
+    border-top: 5%;
 }
 .description{
  color: #224B0C ;

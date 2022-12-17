@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import NavCartButton from "./NavCartButton";
 import "./Navigation.css";
 
-export default function Navigation() {
+export default function Navigation(props) {
   const [isActive, setIsActive] = useState("nav__menu");
   const [isToggler, setIsToggler] = useState("burger");
   const [padding, setPadding] = useState("nav");
@@ -65,7 +65,7 @@ export default function Navigation() {
           <a href="/">Contact</a>
         </li>
       </ul>
-      <NavCartButton />
+      <NavCartButton onClick={props.onShownCart} />
       <div className={isToggler} onClick={expandNavBarHandle}>
         <div className="line1"></div>
         <div className="line2"></div>

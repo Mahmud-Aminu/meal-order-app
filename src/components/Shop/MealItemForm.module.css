@@ -1,0 +1,23 @@
+/* #C1D5A4; 
+#224B0C */
+.form {
+    text-align: center;
+  }
+  
+  .formBtn {
+    font: inherit;
+    font-size: 10px;
+    cursor: pointer;
+    background-color:#224B0C;
+    border: 1px solid #224B0C;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .formBtn:hover,
+  .formBtn:active {
+    background-color: #C1D5A4; ;
+    border-color:#224B0C;
+  }
