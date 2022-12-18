@@ -11,8 +11,9 @@
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 1rem 0;
+    color: #224B0C;
   }
   
   .actions {
@@ -23,7 +24,7 @@
     font: inherit;
     cursor: pointer;
     background-color: transparent;
-    border: 1px solid #8a2b06;
+    border: 1px solid #C1D5A4;
     padding: 0.5rem 2rem;
     border-radius: 25px;
     margin-left: 1rem;
@@ -31,16 +32,29 @@
   
   .actions button:hover,
   .actions button:active {
-    background-color: #5a1a01;
-    border-color: #5a1a01;
+    background-color: #224B0C;
+    border-color:#C1D5A4;
     color: white;
   }
   
   .actions .button--alt {
-    color: #8a2b06;
+    color: #224B0C;
   }
   
   .actions .button {
-    background-color: #8a2b06;
+    background-color: #224B0C;
     color: white;
   }
+
+  /* #C1D5A4;  
+#224B0C */
+@media screen and (max-width: 650px) {
+  .total{
+    font-size: 1rem;
+  }
+  .actions button {
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+}
