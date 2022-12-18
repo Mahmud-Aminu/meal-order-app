@@ -1,6 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import Counter from "../UI/Counter";
-import Input from "../UI/Input";
 import classes from "./MealItemForm.module.css";
 
 export const MealItemForm = () => {
@@ -16,6 +15,7 @@ export const MealItemForm = () => {
 
   const submitFormHandler = (e) => {
     e.preventDefault();
+    console.log(`count: ${count}`);
   };
   return (
     <form className={classes.form} onSubmit={submitFormHandler}>
