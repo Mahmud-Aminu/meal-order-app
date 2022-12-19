@@ -2,20 +2,24 @@ import React, { useState } from "react";
 import Counter from "../UI/Counter";
 import classes from "./MealItemForm.module.css";
 
-export const MealItemForm = () => {
+export const MealItemForm = (props) => {
+  // const amountRef = useRef();
   const [count, setCount] = useState(1);
   // const amountRef = useRef();
 
-  const increament = () => {
+  const increament = (e) => {
+    e.preventDefault();
     setCount(count + 1);
   };
-  const decreament = () => {
+  const decreament = (e) => {
+    e.preventDefault();
     if (count > 1) setCount(count - 1);
   };
 
   const submitFormHandler = (e) => {
     e.preventDefault();
-    console.log(`count: ${count}`);
+    const amount = count;
+    props.onAddAmount(amount);
   };
   return (
     <form className={classes.form} onSubmit={submitFormHandler}>

@@ -1,6 +1,6 @@
 const mealItems = [
   {
-    id: Math.random(),
+    id: 1,
     img: "/image/1-2-food-free-png-image.png",
     name: "French Fries",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -8,7 +8,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 2,
     img: "/image/image1.jpg",
     name: "Burger",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -16,7 +16,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 3,
     img: "/image/image2.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -24,7 +24,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 4,
     img: "/image/image3.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -32,7 +32,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 5,
     img: "/image/image4.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -40,7 +40,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 6,
     img: "/image/image5.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -48,7 +48,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 7,
     img: "/image/image6.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -56,7 +56,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 8,
     img: "/image/image7.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -64,7 +64,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 9,
     img: "/image/image8.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -72,7 +72,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 10,
     img: "/image/Screenshot_20221210_110702.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
@@ -80,7 +80,7 @@ const mealItems = [
     tag: "Lunch",
   },
   {
-    id: Math.random(),
+    id: 11,
     img: "/image/Screenshot_20221210_110820.jpg",
     name: "Egusi",
     description: "loram ipsum dlor sit amet, consectetur adipiscing elit upla",
